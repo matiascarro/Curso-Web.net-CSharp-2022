@@ -8,6 +8,7 @@ namespace Clase2.FormasGeometricas
 {
     public class Circulo : FormasGeometrica
     {
+        public static readonly double PI = 3.14;
         public Circulo(string nombre, double radio): base(nombre)
         {
             this.Radio = radio;
@@ -16,7 +17,7 @@ namespace Clase2.FormasGeometricas
         public double Radio { get; }
         public override double Perimetro()
         {
-            return Math.PI * Radio * Radio;
+            return PI * Radio * Radio;
         }
     }
 }

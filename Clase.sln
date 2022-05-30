@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase2", "Clase2\Clase2.csproj", "{9598DE1F-B64D-4FCD-A913-5E1194402390}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clase2", "Clase2\Clase2.csproj", "{9598DE1F-B64D-4FCD-A913-5E1194402390}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repaso", "Repaso\Repaso.csproj", "{430A66E3-502E-482F-893B-FBCD5BA12B07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase3", "Clase3\Clase3.csproj", "{178E9D6D-F5D1-40F1-8647-0B6399B73CD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplicitOperator", "ImplicitOperator\ImplicitOperator.csproj", "{4D037A52-8DE7-403A-8B61-0513F523A13D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pizzeria", "Pizzeria\Pizzeria.csproj", "{3EE34D3C-1A1C-4A1A-B8A8-1C15E3A1EE2B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{430A66E3-502E-482F-893B-FBCD5BA12B07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{430A66E3-502E-482F-893B-FBCD5BA12B07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{430A66E3-502E-482F-893B-FBCD5BA12B07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{178E9D6D-F5D1-40F1-8647-0B6399B73CD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{178E9D6D-F5D1-40F1-8647-0B6399B73CD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{178E9D6D-F5D1-40F1-8647-0B6399B73CD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{178E9D6D-F5D1-40F1-8647-0B6399B73CD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D037A52-8DE7-403A-8B61-0513F523A13D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D037A52-8DE7-403A-8B61-0513F523A13D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D037A52-8DE7-403A-8B61-0513F523A13D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D037A52-8DE7-403A-8B61-0513F523A13D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EE34D3C-1A1C-4A1A-B8A8-1C15E3A1EE2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EE34D3C-1A1C-4A1A-B8A8-1C15E3A1EE2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EE34D3C-1A1C-4A1A-B8A8-1C15E3A1EE2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EE34D3C-1A1C-4A1A-B8A8-1C15E3A1EE2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
