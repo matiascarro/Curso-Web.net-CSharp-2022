@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Pizzeria.Dominio.Abstracciones
 {
-    public abstract class ItemPedido
+    public abstract class ItemPedido: IPizza
     {
         public abstract double CalcularCosto();
     }

@@ -4,38 +4,38 @@ using Pizzeria.Dominio.Concreto;
 using Pizzeria.Dominio.Enum;
 using Pizzeria.Dominio.Indexadores;
 
-//Console.WriteLine("Hello, World!");
+Console.WriteLine("Hello, World!");
 
 
 
-//PizzaSimple pizzaSimple = new PizzaSimple();
-//Pepperoni pizzaConPepperoni = new Pepperoni(pizzaSimple);
+PizzaSimple pizzaSimple = new PizzaSimple();
+Pepperoni pizzaConPepperoni = new Pepperoni(pizzaSimple);
 
-//Console.WriteLine("La orden fue de costo: " + pizzaConPepperoni.CalcularCosto());
-//Console.WriteLine();
-//pizzaConPepperoni.Imprimir();
-
-
-//PizzaDobleQueso pizzaDobleQueso = new PizzaDobleQueso();
-//Jamon pizzaDobleQuesoYJamon = new Jamon(pizzaDobleQueso);
-//Jamon pizzaDobleQuesoYJamon2 = new Jamon(pizzaDobleQuesoYJamon);
-//Morron pizzaDobleQuesoConJamonYMorrones = new Morron(pizzaDobleQuesoYJamon2);
-
-//Console.WriteLine();
-
-//Console.WriteLine("La orden fue de costo: " + pizzaDobleQuesoConJamonYMorrones.CalcularCosto());
-//pizzaDobleQuesoConJamonYMorrones.Imprimir();
-
-//Console.WriteLine();
-//Console.WriteLine();
-//Console.WriteLine();
+Console.WriteLine("La orden fue de costo: " + pizzaConPepperoni.CalcularCosto());
+Console.WriteLine();
+pizzaConPepperoni.Imprimir();
 
 
-//var pedido = new Pedido();
-//pedido[0] = pizzaConPepperoni;
-//pedido[1] = pizzaDobleQuesoConJamonYMorrones;
+PizzaDobleQueso pizzaDobleQueso = new PizzaDobleQueso();
+Jamon pizzaDobleQuesoYJamon = new Jamon(pizzaDobleQueso);
+Jamon pizzaDobleQuesoYJamon2 = new Jamon(pizzaDobleQuesoYJamon);
+Morron pizzaDobleQuesoConJamonYMorrones = new Morron(pizzaDobleQuesoYJamon2);
 
-//Console.WriteLine(pedido.CalcularCosto());
+Console.WriteLine();
+
+Console.WriteLine("La orden fue de costo: " + pizzaDobleQuesoConJamonYMorrones.CalcularCosto());
+pizzaDobleQuesoConJamonYMorrones.Imprimir();
+
+Console.WriteLine();
+Console.WriteLine();
+Console.WriteLine();
+
+
+var pedido = new Pedido();
+pedido[0] = pizzaConPepperoni;
+pedido[1] = pizzaDobleQuesoConJamonYMorrones;
+
+Console.WriteLine(pedido.CalcularCosto());
 string pass = "4UZ2Q5VDJMzqDF5Rc4Bfm2F/Y/LGx7GTUXnIWw42KwY=";
 Console.WriteLine(pass.Length);
 //test();

@@ -19,7 +19,28 @@ namespace Pizzeria.Dominio.Indexadores
 
         public double CalcularCosto()
         {
-            return pedido.ToList().Sum(p => p.CalcularCosto());
+            /*
+             * double suma = 0
+             * foreach(p in pedido)
+             * {
+             *    suma=+ p.CalcularCosto()
+             * }
+             * return suma;
+             */
+            
+            
+            return pedido.ToList().Sum(p => 
+            {
+                //Type type = p.GetType();
+                //Type type2 = typeof(Morron);
+
+                //if (p is Morron)
+                //{
+                //    Console.WriteLine("Esto es un morron");
+                //}
+                //Console.WriteLine(p.GetType().Name);
+                return p.CalcularCosto();
+            });
         }
 
     }
