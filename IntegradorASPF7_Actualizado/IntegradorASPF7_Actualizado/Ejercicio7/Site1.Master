@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="IntegradorASPF7_Actualizado.Ejercicio7.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link href="../Content/bootstrap.css" rel="stylesheet" />
+    <link href="../Content/bootstrap-theme.css" rel="stylesheet" />
+    <link href="../Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="../Content/bootstrap.css" rel="stylesheet" />
+    <link href="../Content/Site.css" rel="stylesheet" />
+    <script src="../Scripts/bootstrap.js"></script>
+    <script src="../Scripts/bootstrap.min.js"></script>
+    <script src="../Scripts/jquery-3.4.1.js"></script>
+    <script src="../Scripts/jquery-3.4.1.min.js"></script>
+    <script src="../Scripts/jquery-3.4.1.slim.js"></script>
+    <script src="../Scripts/jquery-3.4.1.slim.min.js"></script>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="container">
+            <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+                <nav class="p-3 navbar navbar-expand-lg bg-light w-100">
+                    <div id="header">
+                        <asp:HyperLink ID="Default" runat="server" NavigateUrl="~/Ejercicio7/Default.aspx">Default</asp:HyperLink>
+                        <asp:HyperLink ID="Administracion" runat="server" NavigateUrl="~/Ejercicio7/Administracion.aspx">Administracion</asp:HyperLink>
+                        <asp:HyperLink ID="Ayuda" runat="server" NavigateUrl="~/Ejercicio7/Ayuda.aspx">Ayuda</asp:HyperLink>
+                    </div>
+                </nav>
+            </header>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
